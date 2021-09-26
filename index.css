@@ -13,6 +13,54 @@
     margin-left: 90%;
 }
 
+.my-card {
+    margin-bottom: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+
+    box-shadow: 10px 10px 10px -8px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 10px 10px 10px -8px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 10px -8px rgba(202, 134, 134, 0.24);
+   
+}
+
+.my-card__title {
+  
+    font-weight: 600;
+    margin-top: 14px;
+    font-size: 22px;
+
+}
+
+.my-card__content {
+    padding: 0 15px 0 15px;
+}
+
+.my-card__separator {
+    margin: auto;
+    width: 95%;
+}
+
+.my-card__icon-close {
+    float: right;
+    margin-right: 20px;
+
+    
+}
+
+.my-card__icon-close:hover {
+    cursor: pointer;
+    fill: silver;
+}
+
+.my-card__icon-close:hover {
+    cursor: pointer;
+}
+
+svg:hover {
+    fill: silver;
+}
+
 
 
 
